@@ -49,6 +49,11 @@
     border-radius: 25px;
 }
 
+/* removes public server button*/
+.tutorialContainer-2jwoiB+.listItem-3SmSlK {
+    display: none;
+}
+
 /* hides red new message indicator*/
 .unreadMentionsIndicatorBottom-2mDYbI, .unreadMentionsIndicatorTop-2-tcdU { display: none; }
 
