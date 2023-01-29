@@ -54,11 +54,6 @@
 display: none;
 }
 
-/*Change spotify plugin timeline to green*/
-#vc-spotify-progress-bar [class|=barFill] {
-    background: var(--spotify);
-}
-
 /*Remove sticker from form*/
 .stickerButton-1-nFh2{
   display:none;
@@ -166,4 +161,11 @@ img.emote {
     width: auto;
     position: relative;
     top: 0.25ex;
+}
+
+/*venchord------------------------------------------------------------------- */
+
+/*Change spotify plugin timeline to green*/
+#vc-spotify-progress-bar [class|=barFill] {
+    background: var(--spotify);
 }
