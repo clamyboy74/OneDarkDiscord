@@ -102,7 +102,7 @@ display: none;
 /*hide stage discovery*/
 #private-channels [href="/discovery"] {display: none}
 
-/* Hide Gift Nitro in Chatbar*/
+/* Hide icons in Chatbar*/
 /*button[aria-label="Select emoji"]
 button[aria-label="Open GIF picker"],*/
 button[aria-label="Send a gift"],
