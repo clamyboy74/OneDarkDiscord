@@ -103,8 +103,11 @@ display: none;
 #private-channels [href="/discovery"] {display: none}
 
 /* Hide Gift Nitro in Chatbar*/
-.buttons-3JBrkn.da-buttons > button {
-    display: none;
+/*button[aria-label="Select emoji"]
+button[aria-label="Open GIF picker"],*/
+button[aria-label="Send a gift"],
+button[aria-label="Open sticker picker"] {
+  display: none;
 }
 
 /* hide invite to server context menu*/
