@@ -1,15 +1,14 @@
-/**
+/*
  * @name One Dark Theme
  * @version 1.1
  * @description A theme based off of One Dark, a popular theme on many IDES such as IntelliJ. Keeps many of same elements as normal dark theme discord. Also hides nitro from the friends tab and chatbar.
  * @author Clamyboy74
  * @credit to BD server for CSS Snippets
-
-**/
+*/
 
 /**custom buttons**/
 @import url("https://xhylo.github.io/WinBAcss/winbuttons.css");
-/*revert rebrand*/
+/**revert rebrand**/
 @import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/components/wordmark.css');
 /** blurplecolor**/
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css);
@@ -18,24 +17,21 @@
 .theme-dark,
 
 :root {
-
-
-    
-        /** blurple**/
+        /** blurple*/
     --accentcolor: 114,137,218;		/*	blurple	-	default:	114,137,218		*/
     --linkcolor: 0,176,244;		/*	link	-	default:	0,176,244		*/
     --color-brand-lighter: #4373c5;
 
-        /*main bg colors*/
+        /**main bg colors*/
     --background-primary: #30353d !important; /* extra colors #282c34 #30353d*/
     --background-secondary: #282c34 !important;
     
-        /*brighter text*/
+        /**brighter text*/
     --text-muted: #a9a9a9 !important;
     --text-normal: #e3e3e3 !important;
     --header-secondary: #c9c9c9 !important;
 
-    /*toast colors*/
+    /**toast colors*/
     --toast-header: var(--background-tertiary) !important;
     --toast-contents: var(--background-secondary) !important;
     --toast-box-shadow: rgba(0, 0, 0, 0.2) !important;
@@ -43,22 +39,22 @@
 
   
 }
-/* change color of textbox */
+/** */ change color of textbox */
   .scrollableContainer-15eg7h{
     background-color:#2c313a;
 }
 
-/* removes public server button */
+/** */ removes public server button */
 .tutorialContainer-2jwoiB+.listItem-3SmSlK {
     display: none;
 }
 
-/* Remove gift button */
+/** */ Remove gift button */
 .buttons-uaqb-5 > .button-f2h6uQ > :not(.translateButton-DhP9x8) {
 display: none;
 }
 
-/* Remove sticker from form */
+/** **/ Remove sticker from form **/
 .stickerButton-1-nFh2{
   display:none;
 }
@@ -68,7 +64,7 @@ display: none;
     opacity: 1 !important;
 }
 
-.layers-3iHuyZ>.layer-3QrUeG.animating-rRxada *,
+.layers-3iHuyZ>.layer-3QrUeG.animating-rRxada **,
 .layers-3iHuyZ>.layer-3QrUeG.animating-rRxada {
     pointer-events: auto !important;
     will-change: unset;
@@ -93,7 +89,7 @@ display: none;
     color: #687dc6;
 }
 
-/* Hides nitro tab in DMs list */
+/** Hides nitro tab in DMs list **/
 .hasBanner-2SrLR3 .header-2V-4Sw, .hasBanner-2SrLR3 .header-2V-4Sw:hover{
     color: var(--header-primary);
     box-shadow: var(--elevation-low);
@@ -103,23 +99,23 @@ display: none;
     display: none;
 }
 
-/* hide stage discovery */
+/** hide stage discovery **/
 #private-channels [href="/discovery"] {display: none}
 
-/* Hide Gift Nitro in Chatbar*/
-/*button[aria-label="Select emoji"]
-button[aria-label="Open GIF picker"],*/
+/** Hide Gift Nitro in Chatbar**/
+/**button[aria-label="Select emoji"]
+button[aria-label="Open GIF picker"],**/
 button[aria-label="Send a gift"],
 button[aria-label="Open sticker picker"] {
   display: none;
 }
 
-/* hide invite to server context menu */
+/** hide invite to server context menu **/
 #user-context-invite-to-server {
   display: none;
 }
 
-/* Revert mention color back to old version (easier to read) */
+/** Revert mention color back to old version (easier to read) **/
 #app-mount .mention {
     color: #687dc6;
     background: rgba(114,137,218,0.15);
@@ -135,14 +131,13 @@ button[aria-label="Open sticker picker"] {
     color: #687dc6;
 }
 
-/* Disable discord's overcomplicated and extremely laggy settings animations.
-(like seriously, you have to wait a full second before pointer events are even enabled) */
+/** Disable discord's overcomplicated and extremely laggy settings animations.*/
 .layer-3QrUeG {
     transform: none !important;
     opacity: 1 !important;
 }
 
-.layers-3iHuyZ>.layer-3QrUeG.animating-rRxada *,
+.layers-3iHuyZ>.layer-3QrUeG.animating-rRxada **,
 .layers-3iHuyZ>.layer-3QrUeG.animating-rRxada {
     pointer-events: auto !important;
     will-change: unset;
@@ -152,16 +147,16 @@ button[aria-label="Open sticker picker"] {
     z-index: 100 !important;
 }
 
-/* 🠗 get rid of the nitro icons 🠗 */
+/** 🠗 get rid of the nitro icons 🠗 **/
 .icon-Zc-uZZ {
     display: none;
 }
-/* 🠗 server boost status icon 🠗 */
+/** 🠗 server boost status icon 🠗 **/
 .icon-3Povsy {
     display: none;
 }
 
-/* emote fix*/
+/** emote fix**/
 img.emote {
     text-indent: 0;
     white-space: nowrap;
@@ -170,9 +165,9 @@ img.emote {
     top: 0.25ex;
 }
 
-/* vencord------------------------------------------------------------------- */
+/** vencord------------------------------------------------------------------- **/
 
-/* Change spotify plugin timeline to green */
+/** Change spotify plugin timeline to green **/
 #vc-spotify-progress-bar [class|=barFill] {
     background: var(--spotify);
 }
