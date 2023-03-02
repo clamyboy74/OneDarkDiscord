@@ -170,6 +170,23 @@ img.emote {
     top: 0.25ex;
 }
 
+/* hide super reactions */
+[aria-label^="Add Super Reaction"],
+[class|="reactions"] > div > div[style~="background:"] {
+    display: none !important;
+}
+
+/*kill the super reaction button*/
+div[aria-label="Add Super Reaction"] { display: none; }
+
+/* change home icon */
+svg[class^="homeIcon"] path {
+    d: path('M 2 0 a 2 2 90 0 0 -2 2 v 12 a 2 2 90 0 0 2 2 h 2 l 0 4 l 4 -4 H 18 a 2 2 90 0 0 2 -2 V 2 a 2 2 90 0 0 -2 -2 z');
+}
+svg[class^="homeIcon"] {
+    margin-left: 8px;
+}
+
 /* vencord------------------------------------------------------------------- */
 
 /* Change spotify plugin timeline to green */
