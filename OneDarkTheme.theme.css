@@ -9,14 +9,13 @@
 
 /**custom buttons**/
 @import url("https://xhylo.github.io/WinBAcss/winbuttons.css");
-/**revert rebrand**/
+/*revert rebrand*/
 @import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/components/wordmark.css');
 /** blurplecolor**/
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css);
 /** old font **/
-@import url('https://martinz64.github.io/remove-nitro/remove_super_reactions.css');
-/**remove super reactions**/
 @import url(https://cdn.statically.io/gh/Overimagine1/old-discord-font/main/source.min.css);
+/**remove super reactions**/
 .theme-dark,
 
 :root {
@@ -172,14 +171,7 @@ img.emote {
     top: 0.25ex;
 }
 
-/* hide super reactions */
-[aria-label^="Add Super Reaction"],
-[class|="reactions"] > div > div[style~="background:"] {
-    display: none !important;
-}
 
-/*kill the super reaction button*/
-div[aria-label="Add Super Reaction"] { display: none; }
 
 /* change home icon */
 svg[class^="homeIcon"] path {
