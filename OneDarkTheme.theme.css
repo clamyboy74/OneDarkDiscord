@@ -9,11 +9,13 @@
 
 /**custom buttons**/
 @import url("https://xhylo.github.io/WinBAcss/winbuttons.css");
-/*revert rebrand*/
+/**revert rebrand**/
 @import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/components/wordmark.css');
 /** blurplecolor**/
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css);
 /** old font **/
+@import url('https://martinz64.github.io/remove-nitro/remove_super_reactions.css');
+/**remove super reactions**/
 @import url(https://cdn.statically.io/gh/Overimagine1/old-discord-font/main/source.min.css);
 .theme-dark,
 
@@ -187,9 +189,12 @@ svg[class^="homeIcon"] {
     margin-left: 8px;
 }
 
+
+
 /* vencord------------------------------------------------------------------- */
 
 /* Change spotify plugin timeline to green */
 #vc-spotify-progress-bar [class|=barFill] {
     background: var(--spotify);
 }
+
