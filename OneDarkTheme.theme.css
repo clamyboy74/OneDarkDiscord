@@ -54,6 +54,9 @@
     display: none;
 }
 
+/* Hide shop button in Home */
+a[data-list-item-id$="___shop"] { display: none; }
+
 /* Remove gift button */
 .buttons-uaqb-5 > .button-f2h6uQ > :not(.translateButton-DhP9x8) {
 display: none;
