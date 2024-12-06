@@ -193,3 +193,7 @@ svg[class^="homeIcon"] {
     background: var(--spotify);
 }
 
+/* hide quests */
+section[class^="panels_"]>div[class^="mask_"] {
+    display: none;
+}
