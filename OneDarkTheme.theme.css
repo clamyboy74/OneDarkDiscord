@@ -186,7 +186,7 @@ svg[class^="homeIcon"] {
 
 
 
-/* vencord------------------------------------------------------------------- */
+/* vencord snippets------------------------------------------------------------------ */
 
 /* Change spotify plugin timeline to green */
 #vc-spotify-progress-bar [class|=barFill] {
@@ -196,4 +196,9 @@ svg[class^="homeIcon"] {
 /* hide quests */
 section[class^="panels_"]>div[class^="mask_"] {
     display: none;
+}
+
+/* Hide app launcher */
+[class*=channelAppLauncher_] {
+  display: none;
 }
